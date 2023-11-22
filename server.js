@@ -210,18 +210,18 @@ const server = http.createServer((req, res) => {
 
   //This code handles errors
   
-//   else{
-//     figlet('404!!!', function(err, data) {
-//       if (err) {
-//           console.log('Something went wrong...');
-//           console.dir(err);
-//           return;
-//       }
-//       res.write(data);
-//       res.end();
-//     });
-//   }
-// });
+  // else{
+  //   figlet('404!!!', function(err, data) {
+  //     if (err) {
+  //         console.log('Something went wrong...');
+  //         console.dir(err);
+  //         return;
+  //     }
+  //     res.write(data);
+  //     res.end();
+  //   });
+  // }
+});
 
 //This code tells the server where to listen for requests
 
