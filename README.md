@@ -2,8 +2,6 @@
 
 The application allows the user to choose whether they want to be player one or player two. It then simulates a game of war on the server side and returns a message to the user telling them if the game resulted in a win, loss, or draw. The goal of this project was to practice building a functional, multi-step program and learn how to build a working server with vanilla Node. 
 
-** ADD LINK AND SCREENSHOT
-
 **Link to project:** https://war-lxwr.onrender.com/
 
 ## How It's Made:
