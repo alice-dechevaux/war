@@ -1,0 +1,42 @@
+* {
+  font-family: "Alfa Slab One", serif;
+  text-align: center;
+}
+
+body {
+  background: #000;
+}
+h1, h2{
+  color: #F4C2C2;
+}
+
+h1 {
+  font-size: 30em;
+  line-height: .1;
+  margin-bottom: .55em;
+}
+
+h2 {
+  color: #fff;
+  letter-spacing: 3px;
+  margin-bottom: 1.5em;
+}
+
+button, input {
+  background: #F4C2C2;
+  border: none;
+  border-radius: 3px;
+  height: 2em;
+  color: #fff;
+  font-size: 2em;
+  padding: 0 1em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+input { 
+  width: 10em;
+}
