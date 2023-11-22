@@ -4,6 +4,8 @@ const url = require('url');
 const querystring = require('querystring');
 const figlet = require('figlet')
 
+const PORT = 8000
+
 const server = http.createServer((req, res) => {
 
   const page = url.parse(req.url).pathname;
@@ -223,4 +225,4 @@ const server = http.createServer((req, res) => {
 
 //This code tells the server where to listen for requests
 
-server.listen();
+server.listen(process.env.PORT || PORT);
