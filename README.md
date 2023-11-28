@@ -8,7 +8,7 @@ The application allows the user to choose whether they want to be player one or 
 
 **Tech used:** HTML, CSS, JavaScript, Node.js
 
-The server.js file contains routes for the homepage and the API, as well as the CSS and JS files. The HTTP module is used to create the server, the file system module is used to read all the required documents from the disk, the URL module is used to parse the URL from the request and save the pathname in a variable called page, the querystring module is used to access any queries in the URL and their corresponding parameters and save them in a variable called params, and the figlet module is used to return a stylized 404 page in case of any errors.
+The server.js file contains routes for the homepage and the API, as well as the CSS and JS files. The HTTP module is used to create the server, the file system module is used to read all the required documents from the disk, the URL module is used to parse the URL from the request and save the pathname in a variable called page, and the querystring module is used to access any queries in the URL and their corresponding parameters and save them in a variable called params.
 
 The player starts by choosing to be either player one or player two and submitting their choice via form containing a text input. An event listener on the submit button triggers an async function in the JS file that submits a fetch request containing the player’s choice to the API route. The game is then simulated on the server side. 
 
